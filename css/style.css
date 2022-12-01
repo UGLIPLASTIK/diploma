@@ -35,7 +35,7 @@ a {
 }
 
 .header-promo {
-  background: url(/Diplom/images/background.png);
+  background: url(/images/background.png);
   background-size: cover;
   min-height: 449px;
   position: relative;
@@ -170,19 +170,19 @@ a {
 }
 
 .trends__item-one {
-  background-image: url(/Diplom/images/trends_seedling.png);
+  background-image: url(/images/_trends__seedling.png);
 }
 
 .trends__item-two {
-  background-image: url(/Diplom/images/trends_cheese.png);
+  background-image: url(/images/trends_cheese.png);
 }
 
 .trends__item-three {
-  background-image: url(/Diplom/images/trends_hike.png);
+  background-image: url(/images/trends_hike.png);
 }
 
 .trends__item-four {
-  background-image: url(/Diplom/images/trends_limons.png);
+  background-image: url(/images/trends_limons.png);
 }
 
 .trends__item::after {
