@@ -1,6 +1,28 @@
 
 @media (max-width: 768px) {
 
+    nav {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .gamburger {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;    
+    }
+
+    .gamburger:hover {
+        cursor: pointer;
+    }
+
+    .gam-item {
+        width: 23px;
+        height: 3px;
+        margin-bottom: 4px;
+        background-color: #ffffffcc;
+    }
+
     .header {
         margin-bottom: 89px;
     }
@@ -164,6 +186,11 @@
 }
 
 @media (max-width: 1659px) and (min-width: 769px) {
+
+    .header-promo {
+        background-position: top;
+    }
+
     .shop-offer {
         display: flex;
         flex-wrap: wrap;
