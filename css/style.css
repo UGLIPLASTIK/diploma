@@ -22,8 +22,8 @@ html {
 }
 
 body {
-  width: 1660px;
-  /* width: 100%; */
+  /* width: 1660px; */
+  width: 100%;
   margin: 0 auto;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
@@ -650,3 +650,4 @@ input:focus {
   text-decoration: none;
   color: #999999;
 }
+
