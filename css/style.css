@@ -594,7 +594,6 @@ input:focus {
 .social {
   margin: 0 0 70px;
   padding-left: 2px;
-  min-width: 1170px;
   height: 83px;
   background-color: #f4f7f6;
   display: flex;
