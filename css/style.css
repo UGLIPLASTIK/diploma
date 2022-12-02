@@ -3,14 +3,14 @@ html {
 }
 
 @font-face {
-    src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
     font-family: 'Open Sans';
     font-weight: 700;
     font-style: normal;
   }
 
 @font-face {
-  src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+  src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
   font-family: 'Open Sans';
   font-weight: 400;
   font-style: normal;
@@ -35,7 +35,7 @@ a {
 }
 
 .header-promo {
-  background: url(images/background.png);
+  background: url(../images/background.png);
   background-size: cover;
   min-height: 449px;
   position: relative;
@@ -170,19 +170,19 @@ a {
 }
 
 .trends__item-one {
-  background-image: url(images/_trends__seedling.png);
+  background-image: url(../images/_trends__seedling.png);
 }
 
 .trends__item-two {
-  background-image: url(images/trends_cheese.png);
+  background-image: url(../images/trends_cheese.png);
 }
 
 .trends__item-three {
-  background-image: url(images/trends_hike.png);
+  background-image: url(../images/trends_hike.png);
 }
 
 .trends__item-four {
-  background-image: url(images/trends_limons.png);
+  background-image: url(../images/trends_limons.png);
 }
 
 .trends__item::after {
@@ -368,7 +368,7 @@ input:focus {
 
 .search-button {
   width: 48px;
-  background: url(svg/searh_icon.svg) center/18px no-repeat;
+  background: url(../svg/searh_icon.svg) center/18px no-repeat;
 }
 
 .search-img {
@@ -617,15 +617,15 @@ input:focus {
 }
 
 .dribbble-link {
-  background: url(svg/dribbble.svg) center no-repeat;
+  background: url(../svg/dribbble.svg) center no-repeat;
 }
 
 .pinterest-link {
-  background: url(svg/pinterest.svg) center no-repeat;
+  background: url(../svg/pinterest.svg) center no-repeat;
 }
 
 .tumblr-link {
-  background: url(svg/twitter.svg) center no-repeat;
+  background: url(../svg/twitter.svg) center no-repeat;
 }
 
 .visually-hidden {
