@@ -189,6 +189,7 @@
 
     .header-promo {
         background-position: top;
+        margin-bottom: 35px;
     }
 
     .shop-offer {
@@ -201,6 +202,7 @@
     .trends__item {
         height: 20vw;
         padding: 0px 15px 20px;
+        background-size: cover;
     }
 
     .trends__item-group {
