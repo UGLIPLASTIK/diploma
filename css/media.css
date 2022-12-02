@@ -120,6 +120,7 @@
 
     .shop {
         padding: 0 35px;
+        margin-bottom: 38px;
     }
 
     .shop-offer {
@@ -130,7 +131,34 @@
         width: 48%;
     }
 
+    .card:nth-child(3) {
+        position: relative;
+        bottom: 14px;
+    }
+
+    .card:nth-child(3) .card-content {
+        height: 240px;
+    }
+    
+    .card-content {
+        padding: 50px 20px 0px 17px;
+        width: auto;
+    }
+
+    .card-content .title {
+        font-size: 17px;
+    }
+
     .shop .title::before {
-        left: 38%
+        left: 45.3%
+    }
+
+    .footer {
+        padding: 0 35px 40px;
+    }
+
+    .social {
+        min-width: 100%;
+        margin-bottom: 46px;
     }
 }
