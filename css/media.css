@@ -6,7 +6,9 @@
     }
 
     .header-promo {
+        background: url(../images/background_tablet.png);
         min-height: 392px;
+        margin-bottom: 44px;
     }
 
     .header-content {
@@ -27,15 +29,108 @@
         line-height: 55px;
     }
 
+    .trends {
+        margin-bottom: 51px;
+    }
+
+    .title {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .title::before {
+        left: 46%;
+    }
+
     .trends__items {
         flex-wrap: wrap;
     }
 
     .trends__item {
-        width: 49.7%;
+        width: 49.8%;
+        max-height: 247px;;
     }
 
     .trends__item:nth-child(-n + 2) {
         margin-bottom: 0.3%;
+    }
+
+    .trends__item-group {
+        padding: 30px 36px 29px 28px;
+    }
+
+    .trends__item-group h2 a {
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    .main {
+        padding: 0px 0px 0px 35px;
+        margin-bottom: 48px;
+        justify-content: space-between;
+    }
+
+    .post-list {
+        max-width: 393px;
+        margin: 0;
+    }
+
+    .post-item {
+        flex-direction: column;
+        margin-bottom: 52px;
+    }
+
+    .post-item-img {
+        height: 303px;
+        margin-bottom: 10px;
+    }
+
+    .post-item h2 {
+        line-height: 22px;
+        margin-bottom: 28px;
+    }
+
+    .post-item h2 a {
+        font-size: 17px;
+        line-height: 0;
+    }
+
+    .content-post-item {
+        margin-left: 0;
+        bottom: 0;
+    }
+
+    .content-post-item > p:nth-of-type(1) {
+        margin-top: 26px;
+        margin-bottom: 12px;
+    }
+
+    .aside {
+        margin-right: 6px;
+    }
+
+    .new-posts {
+        margin-bottom: 40px;
+    }
+
+    .aside-item-info {
+        padding-top: 0;
+        bottom: 0;
+    }
+
+    .shop {
+        padding: 0 35px;
+    }
+
+    .shop-offer {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 48%;
+    }
+
+    .shop .title::before {
+        left: 38%
     }
 }
