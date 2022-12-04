@@ -320,6 +320,7 @@
 
     .post-list {
         max-width: 100%;
+        margin-bottom: 60px;
     }
 
     .post-item {
@@ -354,5 +355,25 @@
 
     .content-post-item > p:nth-of-type(n + 2) {
         padding-top: 4px;
+    }
+
+    .aside {
+        width: 100%;
+        margin: 0;
+    }
+
+    .shop {
+        display: none;
+    }
+
+    .aside-title {
+        font-size: 16px;
+        right: 0;
+        bottom: 0;
+        margin-bottom: 39px;
+    }
+
+    .break {
+        display: inline;
     }
 }
