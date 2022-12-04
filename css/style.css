@@ -174,7 +174,7 @@ a {
 }
 
 .trends__item-one {
-  background-image: url(../images/_trends__seedling.png);
+  background-image: url(../images/trends__seedling.png);
 }
 
 .trends__item-two {
@@ -357,7 +357,7 @@ a {
 input {
   height: 48px;
   border: none;
-  padding-left: 19px;
+  padding-left: 16px;
   background: #f4f7f6;
 }
 
@@ -388,6 +388,7 @@ input:focus {
   cursor: pointer;
   font-weight: 700;
   font-size: 14px;
+  flex-shrink: 0;
 }
 
 .button:hover {
@@ -420,7 +421,6 @@ input:focus {
 
 .mailing-button {
   width: 271px;
-  text-transform: uppercase;
   color: white;
 }
 

@@ -316,6 +316,7 @@
     .main {
         flex-direction: column;
         padding: 0px 15px;
+        margin-bottom: 24px;
     }
 
     .post-list {
@@ -362,18 +363,76 @@
         margin: 0;
     }
 
-    .shop {
-        display: none;
-    }
-
     .aside-title {
         font-size: 16px;
         right: 0;
         bottom: 0;
-        margin-bottom: 39px;
+        margin-bottom: 38px;
     }
 
     .break {
         display: inline;
+    }
+
+    .search {
+        margin-bottom: 37px;
+    }
+
+    .search-input {
+        width: 100%;
+    }
+
+    .mailing-input {
+        width: 100%;
+    }
+
+    .mailing-button {
+        width: 100%;
+    }
+    
+    .mailing {
+        margin-bottom: 38px;
+    }
+
+    .tag {
+        margin-bottom: 8px;
+        margin-right: 6px;
+        padding: 2px 13px 4px 11px;
+    }
+    
+    .tags {
+        margin-bottom: 31px;
+    }
+
+    .topics {
+        position: relative;
+        bottom: 4px;
+    }
+
+    .topics-item {
+        padding-bottom: 25px;
+    }
+
+    .shop {
+        padding: 0 14px;
+        margin-bottom: 38px;
+    }
+
+    .shop .title::before {
+        left: 39.8%;
+        bottom: -13px;
+    }
+
+    .shop-offer {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card-content {
+        padding: 50px 20px 0px 17px;
+        width: 100%;
     }
 }
