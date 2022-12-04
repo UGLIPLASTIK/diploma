@@ -418,6 +418,10 @@
         margin-bottom: 38px;
     }
 
+    .shop .title {
+        margin-bottom: 41px;
+    }
+
     .shop .title::before {
         left: 39.8%;
         bottom: -13px;
@@ -429,10 +433,35 @@
 
     .card {
         width: 100%;
+        margin-bottom: -5px;
+    }
+
+    .card-content .title {
+        margin-bottom: 5px;
+    }
+
+    .card-img {
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        top: 0;
     }
 
     .card-content {
-        padding: 50px 20px 0px 17px;
+        padding: 48px 24px 27px 18px;
         width: 100%;
+        height: auto;
+        position: relative;
+        bottom: 34px;
+        margin: 0;
+    }
+
+    .shop .content {
+        font-size: 15px;
+    }
+
+    .card:nth-child(3) {
+        position: inherit;
+        bottom: 14px;
     }
 }
