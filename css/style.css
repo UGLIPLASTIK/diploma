@@ -27,6 +27,7 @@ body {
   margin: 0 auto;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
+  position: relative;
 }
 
 a {
@@ -246,8 +247,8 @@ a {
 }
 
 .post-item-img {
-  min-width: 381px;
-  height: 294px;
+  max-width: 381px;
+  max-height: 294px;
   background-color: #dddac1;
 }
 
@@ -652,5 +653,43 @@ input:focus {
 .copyright a {
   text-decoration: none;
   color: #999999;
+}
+
+.popup {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000000a1;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: none;
+}
+
+.feedback {
+  max-width: 330px;
+  background-color: white;
+  padding: 30px 18px;
+  margin: 0 auto;
+}
+
+select {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 38px;
+  
+  padding-left: 10px;
+  padding-right: 25px;
+  margin-top: 10px;
+
+  -webkit-appearance: none;
+
+  border: 1px solid #cbd1d4;
+  background: url(https://netology-code.github.io/html-2-homeworks/form-elements/city-select/img/select-arrows.svg) right 5px center no-repeat;
+  
+  /* font-size: 14px;
+  font-family: Arial,sans-serif;
+  color: #333333; */
 }
 
