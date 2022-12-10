@@ -43,7 +43,7 @@
             <div class="trends__item-group">
               <a class="tag-link" href="#0">Lifestyle</a>
               <a class="tag-link" href="#0">INTERIOR</a>
-              <h2><a href="#0">Сейчас в тренде: сад на подоконнике</a></h2>
+              <h2><a href="#0"><span class="break">Сейчас в тренде: сад</span> на подоконнике</a></h2>
             </div>
           </div>
           <div class="trends__item trends__item-two">
@@ -304,16 +304,25 @@
         </div>
       </footer>
       <div class="popup">
-        <form class="feedback" action="#">
+        <form id="feedback" class="feedback" action="#">
           <h2 class="title">Ваш фидбэк</h2>
-          <label class="select-group">
-            <span class="select-label">Как часто Вы заходите на сайт?</span>
-            <select class="select">
-              <option value="moscow" selected>Вариант 1</option>
-              <option value="st-petersburg">Вариант 2</option>
-              <option value="kazan">Вариант 3</option>
-            </select>
-          </label>
+
+          <div class="form-group">
+            <label class="select-group">
+              <p class="checkbox-text">Как часто Вы заходите на сайт?</p>
+              <select class="select">
+                <option value="moscow" selected>Вариант 1</option>
+                <option value="st-petersburg">Вариант 2</option>
+                <option value="kazan">Вариант 3</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="form-group">                        
+            <p class="checkbox-text">Вы подписаны на e-mail рассылку?</p>
+            <label><input class="checkbox" type="radio" name="ansver"> Да</label>
+            <label><input class="checkbox" type="radio" name="ansver"> Нет</label>
+          </div>
           
         </form>
       </div>

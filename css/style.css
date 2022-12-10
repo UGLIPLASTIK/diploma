@@ -155,7 +155,8 @@ a {
   height: 3px;
   background-color: rgba(181, 159, 91, 0.3);
   bottom: -10px;
-  left: 48%;
+  left: 50%;
+  translate: -50%;
 }
 
 .trends__items {
@@ -408,7 +409,8 @@ input:focus {
   width: 66px;
   border-bottom: 3px solid rgba(181, 159, 91, 0.3);
   bottom: -13px;
-  left: 39%;
+  left: 50%;
+  translate: -50%;
 }
 
 .mailing {
@@ -519,10 +521,6 @@ input:focus {
 
 .shop .title {
   margin: 0;
-}
-
-.shop .title::before {
-  left: 47%;
 }
 
 
@@ -663,14 +661,22 @@ input:focus {
   top: 0;
   left: 0;
   z-index: 2;
-  display: none;
+  /* display: none; */
 }
 
 .feedback {
-  max-width: 330px;
+  min-width: 330px;
   background-color: white;
-  padding: 30px 18px;
-  margin: 0 auto;
+  padding: 30px;
+  position: fixed;
+  top: 20vh;
+  left: 50%;
+  translate: -50%;
+  font-size: 13px;
+}
+
+.form-group input {
+  height: auto;
 }
 
 select {
@@ -685,11 +691,8 @@ select {
 
   -webkit-appearance: none;
 
-  border: 1px solid #cbd1d4;
-  background: url(https://netology-code.github.io/html-2-homeworks/form-elements/city-select/img/select-arrows.svg) right 5px center no-repeat;
-  
-  /* font-size: 14px;
-  font-family: Arial,sans-serif;
-  color: #333333; */
+  border: none;
+  background: #eeeeee99 url(https://netology-code.github.io/html-2-homeworks/form-elements/city-select/img/select-arrows.svg) right 5px center no-repeat;
 }
+
 
