@@ -661,14 +661,14 @@ a {
   top: 0;
   left: 0;
   z-index: 2;
-  /* display: none; */
+  display: none;
 }
 
 .feedback {
   max-width: 400px;
   background-color: white;
   box-sizing: border-box;
-  padding: 39px;
+  padding: 50px 40px;
   position: fixed;
   top: 20vh;
   left: 50%;
@@ -700,9 +700,7 @@ select {
   background: #eeeeee99 url(../svg/input.svg) right 5px center no-repeat;
 }
 
-.checkbox {
-  margin-right: 10px;
-}
+
 
 textarea {
   box-sizing: border-box;
@@ -715,7 +713,7 @@ textarea {
   background-color: #eeeeee99;
 }
 
-form .button {
+.popup__close {
   width: 100%;
   color: white;
 }
@@ -756,5 +754,42 @@ form .button {
   position: absolute;
   top: 50%;
   left: 50%;
+}
+
+.checkbox-label {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.checkbox {
+  display: none;
+}
+
+.radio {
+  position: relative;
+  top: 3px;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: rgb(255, 255, 255);
+  border: 1px #b59f5b solid;
+  border-radius: 50%;
+  /* box-shadow: inset 0 0 5px rgba(0,0,0,0.5); */
+}
+
+.checkbox:checked + .radio { 
+  background: #ffffff;
+ }
+
+.checkbox-label .checkbox:checked + .radio::before { 
+  content: '';
+  position: absolute;
+  left: 50%; 
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #b59f5b;
+  width: 13px; 
+  height: 13px;
+  border-radius: 50%;
 }
 
