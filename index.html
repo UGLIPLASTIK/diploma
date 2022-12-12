@@ -309,21 +309,27 @@
 
           <div class="form-group">
             <label class="select-group">
-              <p class="checkbox-text">Как часто Вы заходите на сайт?</p>
-              <select class="select">
-                <option value="moscow" selected>Вариант 1</option>
-                <option value="st-petersburg">Вариант 2</option>
-                <option value="kazan">Вариант 3</option>
+              <p class="group-text">Как часто Вы заходите на сайт?</p>
+              <select placeholder="Каждый день" class="select">
+                <option value="1" selected>Вариант 1</option>
+                <option value="2">Вариант 2</option>
+                <option value="3">Вариант 3</option>
               </select>
             </label>
           </div>
 
           <div class="form-group">                        
-            <p class="checkbox-text">Вы подписаны на e-mail рассылку?</p>
+            <p class="group-text">Вы подписаны на e-mail рассылку?</p>
             <label><input class="checkbox" type="radio" name="ansver"> Да</label>
             <label><input class="checkbox" type="radio" name="ansver"> Нет</label>
           </div>
           
+          <div class="form-group">
+            <p class="group-text">Расскажите какой контент вы бы хотели видеть на нашем сайте?</p>
+            <textarea form="feedback" name="comment" placeholder="Может, больше рецептов?"></textarea>
+          </div>
+          <input class="button" type="submit">
+          <button class="popup__close" type="button">Закрыть окно</button>
         </form>
       </div>
 </body>

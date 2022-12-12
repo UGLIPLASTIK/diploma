@@ -121,9 +121,7 @@
         margin-bottom: 30px;
     }
 
-    .title::before {
-        left: 46%;
-    }
+
 
     .trends__items {
         flex-wrap: wrap;
@@ -239,9 +237,7 @@
         font-size: 17px;
     }
 
-    .shop .title::before {
-        left: 45.3%
-    }
+
 
     .footer {
         padding: 0 35px 40px;
@@ -488,7 +484,6 @@
     }
 
     .shop .title::before {
-        left: 39.8%;
         bottom: -13px;
     }
 
