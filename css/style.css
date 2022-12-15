@@ -516,6 +516,7 @@ a {
 
 .shop-offer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
