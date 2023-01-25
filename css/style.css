@@ -162,10 +162,11 @@ a {
 .trends__items {
   display: flex;
   justify-content: space-between;
+  gap: 0.5rem;
 }
 
 .trends__item {
-  width: 24.6%;
+  flex: 1 1 calc(100% / 4);
   height: 320px;
   background-color: #eff6f1;
   position: relative;
