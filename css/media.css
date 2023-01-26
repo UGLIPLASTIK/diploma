@@ -129,7 +129,6 @@
         flex: 1 1 calc(100% / 3);
         max-height: 247px;
         background-repeat: no-repeat;
-        background-size: cover;
         background-position: center;
     }
 
@@ -148,7 +147,7 @@
     }
 
     .main {
-        padding: 0px 0px 0px 35px;
+        padding: 0px 10vw;
         margin-bottom: 48px;
         justify-content: space-between;
     }
@@ -156,6 +155,7 @@
     .post-list {
         max-width: 393px;
         margin: 0;
+        margin-right: 10px;
     }
 
     .post-item {
@@ -382,6 +382,7 @@
 
     .post-item-img {
         /* height: 254px; */
+        margin: 0 auto;
         margin-bottom: 13px;
         /* min-width: 290px; */
     }
@@ -401,6 +402,7 @@
         font-size: 14px;
         line-height: 20px;
         margin: 0;
+        text-align: center;
     }
 
     .first-paragraph {
@@ -493,6 +495,7 @@
     .card-content .title {
         margin-bottom: 5px;
         font-size: 17px;
+        text-align: center;
     }
 
     .card-img {
