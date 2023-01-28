@@ -62,7 +62,7 @@
 
 @media (min-width: 641px) and (max-width: 1200px) {
 
-    nav {
+    .navigation {
         display: flex;
         flex-direction: row-reverse;
     }
@@ -167,7 +167,7 @@
         margin-bottom: 10px;
     }
 
-    .post-item h2 {
+    .post-item-title {
         line-height: 22px;
         margin-bottom: 28px;
     }
@@ -277,7 +277,7 @@
     }
 
 
-    nav {
+    .navigation {
         display: flex;
         flex-direction: row-reverse;
         margin-bottom: 170px;
@@ -387,7 +387,7 @@
         /* min-width: 290px; */
     }
 
-    .post-item h2 {
+    .post-item-title {
         line-height: 19px;
         margin-top: 6px;
         margin-bottom: 15px;
